@@ -1,0 +1,6 @@
+# spawn terminal terminal
+alt + Return
+	st
+# spawn firefox
+alt + w
+	firefox
