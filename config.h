@@ -16,12 +16,12 @@ static int smartgaps          = 0;        /* 1 means no outer gap when there is 
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static char *fonts[]          = { "Oxygen Mono:size=14", "AppleColorEmoji:pixelsize=16:antialias=true:autohint=true"  };
-static char normbgcolor[]           = "#222222"; // red
-static char normbordercolor[]       = "#444444"; // gray
-static char normfgcolor[]           = "#bbbbbb"; // light gray
-static char selfgcolor[]            = "#eeeeee"; // white
-static char selbordercolor[]        = "#770000"; // red
-static char selbgcolor[]            = "#005577"; // blue
+static char normbgcolor[]           = "#1b1918"; // red
+static char normbordercolor[]       = "#2c2421"; // gray
+static char normfgcolor[]           = "#68615e"; // light gray
+static char selfgcolor[]            = "#9c9491"; // white
+static char selbordercolor[]        = "#3d97b8"; // red
+static char selbgcolor[]            = "#407ee7"; // blue
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
